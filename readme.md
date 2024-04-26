@@ -8,6 +8,7 @@
 
 Este proyecto es un generador de señales digitales que permite visualizar diferentes tipos de codificación de señales, incluyendo NRZ-L, NRZ-I, Manchester, Manchester Diferencial, BFSK, BPSK y BASK. La aplicación está alojada en [https://generador-de-ondas.netlify.app](https://generador-de-ondas.netlify.app).
 
+Existe también una versión de este proyecto desarrollada en Python y compilada para Windows, Linux y Mac Intel. Puedes encontrarla [aquí](https://github.com/21Enzo17/Signal-Modulator).
 ## Características
 
 - Genera gráficos de señales digitales basados en una secuencia de bits proporcionada por el usuario.
