@@ -26,13 +26,17 @@ Este proyecto es un generador de señales digitales que permite visualizar difer
 
 ## Capturas de Pantalla
 
-![image](https://github.com/21Enzo17/Signal-Modulator/assets/129308114/c74b2731-bbb7-4396-b8a7-72d4b13246a3)
+![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/dc276d1a-3f8b-49cb-bd03-cb2a78139856)
 
-![image](https://github.com/21Enzo17/Signal-Modulator/assets/129308114/b1e11378-2195-4dd2-b9c2-8b610f80db65)
 
-![image](https://github.com/21Enzo17/Signal-Modulator/assets/129308114/7e2c2c2c-2d63-4968-a6d6-01df36a74e0e)
+![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/66192955-e904-4603-b47e-8d7ee3c737e2)
 
-![image](https://github.com/21Enzo17/Signal-Modulator/assets/129308114/83380cd0-5eb6-4152-baa1-de91490f1487)
+
+![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/f27fe498-9c6f-4533-ab85-1c4f1f6327fc)
+
+
+![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/c05f979f-cc7f-44c3-9e00-266db26a8a8f)
+
 
 ## Reconocimientos
 
