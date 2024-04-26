@@ -6,7 +6,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?logo=javascript)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?logo=plotly)
 
-Este proyecto es un generador de señales digitales que permite visualizar diferentes tipos de codificación de señales, incluyendo NRZ-L, NRZ-I, Manchester, Manchester Diferencial, BFSK, BPSK y BASK. La aplicación está alojada en [https://generador-de-ondas.netlify.app](https://generador-de-ondas.netlify.app).
+Este proyecto es un generador de señales digitales que permite visualizar diferentes tipos de codificación de señales, incluyendo NRZ-L, NRZ-I, Manchester, Manchester Diferencial, BFSK, BPSK y BASK. La aplicación está alojada en [Netlify](https://generador-de-ondas.netlify.app) y también en [GitHub Pages](https://21enzo17.github.io/Signal-Modulator-web/).
 
 ## Características
 
@@ -17,7 +17,7 @@ Este proyecto es un generador de señales digitales que permite visualizar difer
 
 ## Uso
 
-1. Abre [https://generador-de-ondas.netlify.app](https://generador-de-ondas.netlify.app) en tu navegador para iniciar la aplicación.
+1. Abre [https://generador-de-ondas.netlify.app](https://generador-de-ondas.netlify.app) o [https://21enzo17.github.io/Signal-Modulator-web/](https://21enzo17.github.io/Signal-Modulator-web/) en tu navegador para iniciar la aplicación.
 2. Selecciona el tipo de onda que deseas generar.
 3. Selecciona el nivel de inicio de la señal.
 4. Introduce la secuencia de bits que deseas codificar.
@@ -28,15 +28,11 @@ Este proyecto es un generador de señales digitales que permite visualizar difer
 
 ![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/dc276d1a-3f8b-49cb-bd03-cb2a78139856)
 
-
 ![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/66192955-e904-4603-b47e-8d7ee3c737e2)
-
 
 ![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/f27fe498-9c6f-4533-ab85-1c4f1f6327fc)
 
-
 ![image](https://github.com/21Enzo17/Generador-de-ondas-web/assets/129308114/c05f979f-cc7f-44c3-9e00-266db26a8a8f)
-
 
 ## Reconocimientos
 
