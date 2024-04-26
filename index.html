@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de señales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link rel="icon" type="image/svg+xml" href="icono.svg">
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<body class="d-flex flex-column min-vh-100">
+    <div class=" flex-grow-1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav mx-auto">
+                        <div class="mb-3 me-md-3">
+                            <label for="waveType" class="form-label text-light">Tipo de onda:</label>
+                            <select id="waveType" class="form-select">
+                                <option value="NRZ-L">NRZ-L</option>
+                                <option value="NRZ-I">NRZ-I</option>
+                                <option value="Manchester">Manchester</option>
+                                <option value="Manchester Diferencial">Manchester Diferencial</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 me-md-3">
+                            <label for="startLevel" class="form-label text-light">Nivel de inicio:</label>
+                            <select id="startLevel" class="form-select">
+                                <option value="1">Arriba</option>
+                                <option value="-1">Abajo</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 me-md-3">
+                            <label for="data" class="form-label text-light">Datos:</label>
+                            <input type="text" id="data" class="form-control">
+                        </div>
+                        <div class="mt-md-3 me-md-3">
+                            <button id="drawButton" class="btn btn-primary mt-md-3">Dibujar</button>
+                        </div>
+                        <div class="mt-md-3 me-md-3">
+                            <div class="btn-group">
+                                <button id="exportButton" class="btn btn-primary mt-md-3" data-size="1280x720">Exportar (1280x720)</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split mt-md-3" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#" data-size="640x360">640x360</a></li>
+                                    <li><a class="dropdown-item" href="#" data-size="1280x720">1280x720</a></li>
+                                    <li><a class="dropdown-item" href="#" data-size="1600x900">1600x900</a></li>
+                                    <li><a class="dropdown-item" href="#" data-size="1920x1080">1920x1080</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="alert" class="alert alert-danger alert-dismissible fade show" role="alert" style="display: none;">
+            <span id="alert-message"></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div id="nrzi-alert" class="alert alert-warning alert-dismissible fade show" role="alert"
+            style="display: none;">
+            Recuerde que el nivel de inicio invierte el gráfico.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div id="myDiv" ></div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark text-light">
+        <div class="container text-center">
+            <a href="https://github.com/21Enzo17" target="_blank" class="text-light text-decoration-none">
+                Sitio desarrollado por: <br><i class="bi bi-github"></i> 21Enzo17
+            </a>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
