@@ -196,6 +196,7 @@ function plot_signal_manchester(signal, data, title) {
     };
     Plotly.newPlot('myDiv', [trace1, trace2], layout, {displayModeBar: false});
 }
+
 let isGraphDrawn = false;
 
 // Función que se llama cuando se hace clic en el botón "Dibujar"
@@ -223,7 +224,10 @@ function drawSignal() {
             break;
         case 'NRZ-I':
             signal = nrz_i(data, startLevel);
-            document.getElementById('nrzi-alert').style.display = 'block';
+            let nrziAlert = document.getElementById('nrzi-alert');
+            if (nrziAlert) {
+                nrziAlert.style.display = 'block';
+            }
             break;
         case 'Manchester':
             signal = manchester(data, startLevel);
