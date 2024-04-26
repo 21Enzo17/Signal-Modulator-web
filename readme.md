@@ -1,6 +1,7 @@
 # Generador de Señales Digitales
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1044be5b-6d6f-4e39-81cc-85f387c1779d/deploy-status)](https://app.netlify.com/sites/generador-de-ondas2/deploys)
+[![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2F21enzo17.github.io%2FSignal-Modulator-web%2F)](https://21enzo17.github.io/Signal-Modulator-web/)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?logo=javascript)
